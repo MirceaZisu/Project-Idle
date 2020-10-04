@@ -3,6 +3,7 @@ import asyncio
 # import math
 import sqlite3
 
+# Replace all commands with @client.command; one of the arguments in the def has to be ctx.
 
 class Bot():
     
@@ -82,7 +83,7 @@ def main():
 
         bot = Bot(loop, client)
 
-        client.run('NzYxOTUyNDU3NjMzODI0ODM4.X3iFhg.jXCd699JyPknMzPAfdwcqesbG0A')
+        client.run('')
     finally:
         loop.run_until_complete(loop.shutdown_asyncgens())
         loop.close()
